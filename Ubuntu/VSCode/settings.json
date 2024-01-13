@@ -1,0 +1,256 @@
+{
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "emmet.includeLanguages": {
+      "javascript": "html"
+    },
+
+    "vim.handleKeys": {
+        "<C-c>": false,
+        "<C-x>": false,
+        "<C-l>": false,
+        "<C-v>": false,
+        "<C-d>": false,
+        "<C-f>": false,
+        "<C-h>": false
+    },
+    "editor.wordWrap": "on",
+    "textmarker.defaultHighlightColor": "",
+    "textmarker.useHighlightColorOnRuler": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Eva 01 Theme",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "projectManager.git.baseFolders": [
+        "C:\\Users\\aleja\\Dropbox",
+        "/Users/admin/Desktop/Github"
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.detectIndentation": false,
+    "terminal.integrated.fontWeight": 5,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "emmet.showSuggestionsAsSnippets": true,
+    "workbench.editorAssociations": {
+      "*.ipynb": "jupyter-notebook"
+    },
+    "python.languageServer": "Pylance",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "python.pythonPath": "C:\\ProgramData\\Anaconda\\python.exe",
+    "terminal.integrated.fontSize": 16,
+    "python.venvPath": "C:\\Users\\vn51sx8\\Anaconda3\\envs",
+    "gitlens.advanced.messages": {
+      "suppressGitMissingWarning": true
+    },
+    "editor.fontSize": 17,
+    "textmarker.highlightColors": [
+
+        "teal",
+        "mediumslateblue",
+        "lightcoral",
+        "darkmagenta",
+        "green",
+        "darkorange",
+        "red",
+        "brown",
+        "yellow",
+        "darkturquoise",
+        "blue",
+        "pink",
+        "purple",
+        "yellowgreen",
+        "orange",
+        "tomato",
+        "#F4FAA0",
+        "A0FAF1",
+        "darksalmon",
+        "olivedrab",
+
+        "teal",
+        "mediumslateblue",
+        "lightcoral",
+        "darkmagenta",
+        "green",
+        "darkorange",
+        "red",
+        "brown",
+        "yellow",
+        "darkturquoise",
+        "blue",
+        "pink",
+        "purple",
+        "yellowgreen",
+        "orange",
+        "tomato",
+        "#F4FAA0",
+        "A0FAF1",
+        "darksalmon",
+        "olivedrab",
+        
+        "#FAA0EB","#6B5D93","#3B4775",
+        "#FAA0A0","#99545E","#783B48",
+        "#9FCCFA","#538998","#3A7277",
+        "#A0FAF1","#549969","#3B783B",
+        "#A1FAA0","#759954","#66783B",
+        "#F4FAA0","#978254","#785A3B",
+        "#FACAA0","#995F54","#783B3B",
+        
+        
+        "#FAA0EB","#6B5D93","#3B4775",
+        "#FAA0A0","#99545E","#783B48",
+        "#9FCCFA","#538998","#3A7277",
+        "#A0FAF1","#549969","#3B783B",
+        "#A1FAA0","#759954","#66783B",
+        "#F4FAA0","#978254","#785A3B",
+        "#FACAA0","#995F54","#783B3B",
+        
+    ],
+    "editor.renderLineHighlight": "none",
+    "python.defaultInterpreterPath": "C:\\Users\\aleja\\anaconda3\\envs\\criteria-do\\python.exe",
+    "terminal.integrated.fontFamily": "Hack",
+    "remote.SSH.remotePlatform": {
+        "UbuntuCoro": "linux",
+        "ec2-54-221-96-14.compute-1.amazonaws.com": "linux",
+        "ec2-3-89-127-182.compute-1.amazonaws.com": "linux",
+        "ec2-3-89-119-212.compute-1.amazonaws.com": "linux",
+        "Ubuntu64GB": "linux",
+        "CoroUbuntu": "linux",
+        "UbuntuJalisco": "linux",
+        "DeepLearning": "linux",
+        "DeepLearner": "linux",
+        "FastAI": "linux",
+        "IncluiaDemo": "linux",
+        "incluia-ds-001": "linux"
+    },
+    "editor.codeLensFontFamily": "Hack",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.inheritEnv": false,
+    "editor.largeFileOptimizations": false,
+    "editor.tabCompletion": "on",
+    "emmet.triggerExpansionOnTab": true,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "bracketPairColorizer.depreciation-notice": false,
+    "jupyter.askForKernelRestart": false,
+    "notebook.lineNumbers": "on",
+    "workbench.startupEditor": "none",
+    "editor.accessibilitySupport": "off",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.autofetch": true,
+    "highlight.regexes": {
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#ffcc00",
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#ffcc00",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc0000",
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc0000",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#00ccff",
+                    "backgroundColor": "#00ccff",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#00ccff",
+                    "color": "#1f1f1f"
+                }
+            ]
+        },
+        "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+            "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+            "decorations": [
+                {
+                    "overviewRulerColor": "#cc00cc",
+                    "backgroundColor": "#cc00cc",
+                    "color": "#1f1f1f",
+                    "fontWeight": "bold"
+                },
+                {
+                    "backgroundColor": "#cc00cc",
+                    "color": "#1f1f1f"
+                }
+            ]
+        }
+    },
+    "workbench.preferredDarkColorTheme": "Winter is Coming (Dark Blue - No Italics)",
+    "git.terminalAuthentication": false,
+    "githubPullRequests.pullBranch": "never",
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "switch:command",
+        "stash-push:command"
+    ],
+    "workbench.iconTheme": "vikings-icon-theme",
+    "testExplorer.addToEditorContextMenu": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "editor.fontFamily"
+    ],
+    "editor.fontFamily": "hack",
+    "workbench.colorCustomizations": {
+        "terminal.background":"#131212",
+        "terminal.foreground":"#dddad6",
+        "terminal.ansiBlack":"#1D2021",
+        "terminal.ansiBrightBlack":"#665C54",
+        "terminal.ansiBrightBlue":"#0D6678",
+        "terminal.ansiBrightCyan":"#8BA59B",
+        "terminal.ansiBrightGreen":"#237e02",
+        "terminal.ansiBrightMagenta":"#8F4673",
+        "terminal.ansiBrightRed":"#FB543F",
+        "terminal.ansiBrightWhite":"#FDF4C1",
+        "terminal.ansiBrightYellow":"#FAC03B",
+        "terminal.ansiBlue":"#00a1f9",
+        "terminal.ansiCyan":"#8BA59B",
+        "terminal.ansiGreen":"#95C085",
+        "terminal.ansiMagenta":"#8F4673",
+        "terminal.ansiRed":"#FB543F",
+        "terminal.ansiWhite":"#A89984",
+        "terminal.ansiYellow":"#FAC03B",
+
+        "statusBar.background" : "#7160e8",
+        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.debuggingBackground": "#263238",
+
+    },
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.tabs.defaultIcon": "github",
+    "editor.fontVariations": true,
+    "window.commandCenter": false,
+    "debug.console.fontSize": 16,
+    "editor.fontLigatures": false,
+    "window.zoomLevel": -1
+
+}

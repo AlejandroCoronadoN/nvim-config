@@ -1,7 +1,6 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to your oh-my-zsh installation.
+
 export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
@@ -21,9 +20,9 @@ alias vision='conda activate reece-vision; aws sso login; export AWS_PROFILE=OCR
 alias scout='docker compose up --build; cd user_interface; BROWSER=chrome npm start'
 alias nrsc='BROWSER=chrome npm start'
 alias dcb='docker compose up --build'
-export NVM_DIR=~/.nvm
- source $(brew --prefix nvm)/nvm.sh
+
 alias awsso='aws sso login --profile'
+alias gst='git status'
 alias gstaa0='gstaa stash@{0}'
 alias gstaatest='gstaa stash^{"/deploy to test environment stash"}'
 alias sourcev='source ~/.zshrc'
@@ -91,20 +90,18 @@ alias dockernocache='sudo docker-compose build --no-cache'
 # Add wisely, as too many plugins slow down shell startup.
 
 plugins=(
-	git 
-	zsh-history-substring-search  
-	zsh-autosuggestions 
-	thefuck  
-	z
-	auto-notify 
-	$plugins
-	you-should-use
-	macos
-	history
-	dirhistory
-	copybuffer
-	copyfile	
-	 )
+        git
+        zsh-history-substring-search
+        zsh-autosuggestions
+        z
+        $plugins
+        you-should-use
+        macos
+        history
+        dirhistory
+        copybuffer
+        copyfile
+         )
 
 
 
@@ -112,7 +109,6 @@ bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
 source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -138,12 +134,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /Users/admin/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /Users/admin/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
-
 
 source ~/.bash_profile
 
