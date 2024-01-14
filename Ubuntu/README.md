@@ -158,6 +158,11 @@ Inmediately nvim will change entirely by installing and applying all out configu
   
 
 #### Telescope
+Before start using telescope, be sure to install this library, it will allow live_grep to work and search files by sub-string matching.
+```
+sudo apt-get install ripgrep
+```
+
 * ** space +ff: **Telescope find_files - Fuzzy find files in cwd
 * ** space +fr: **Telescope oldfiles - Fuzzy find recent files
 * ** space +fs: **Telescope live_grep - Find string in cwd
@@ -169,3 +174,42 @@ Inmediately nvim will change entirely by installing and applying all out configu
 * ** space + ec: **"Collapse file explorer
 * ** space + er: **Refresh file explorer
 
+###  Tmux
+Install inside WSL (Ubuntu) and install tmux package manager
+```
+sudo apt install tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+copy the tmux.config file to use shortcuts and tmux features. Use the follwing commands to Create, detach and reatach tmux sessions.
+```
+tmux new -s SESION_NAME
+tmux detach
+tmux attach -t SESSION_NAME
+```~~~~
+
+#### Tmux Shortcuts
+Ctrl + A is the tmux prefix that allows us to use tmux commands directly after using Ctrl+a. 
+
+* ** ctrl + a + s: ** List all tmux sessions 
+* ** ctrl + a + -: ** Split Horizontally and create terminals
+* ** ctrl + a + |: ** Split Vertically and create terminals
+* ** ctrl + a + h,l,j,k: ** Resize Horizontally or Vertically in the corresponding direction. 
+* ** ctrl + a + I: ** To realod and install plugins
+* 
+
+
+## Debuuggers
+### Python Debuuggers
+
+Install debugpy in a conda environment. Is important that the python version matches the python installed in the system and to be as recent as possible. The debugging.lua file exepects that envrionment trough the CONDA_PREFIX. 
+
+```
+conda cretae --name debugpy  -c conda-forge python=3.11
+conda activate debugpy 
+conda install conda-forge::debugpy
+```
+You will need to adjust the python debugger setup in debugging.lua and chage it for your own path
+/home/wallfacer/anaconda3/envs/debugpy/bin/python
+
+
+lua require('dap-python').setup('~wallfacer/anaconda3/envs/debugpy/bin/python')
