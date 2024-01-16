@@ -14,4 +14,5 @@ require("alejandro.plugins.lsp.null-ls")
 require("alejandro.plugins.autopairs")
 require("alejandro.plugins.treesitter")
 require("alejandro.plugins.gitsigns")
-
+require("alejandro.plugins.which-key")
+require("alejandro.plugins.debugging")

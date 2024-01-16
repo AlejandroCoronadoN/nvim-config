@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/ubuntu18/pip-packages'
+let g:netrw_dirhist_2='/home/ubuntu18'
+let g:netrw_dirhist_3='/home'
+let g:netrw_dirhist_4='/home/ubuntu18'
+let g:netrw_dirhist_5='/home/ubuntu18/pip-packages'
+let g:netrw_dirhist_6='/home/ubuntu18/pip-packages/incluia-etl'
+let g:netrw_dirhist_7='/home/ubuntu18/pip-packages/incluia-etl/incluiasrc'
+let g:netrw_dirhist_8='/home/ubuntu18/pip-packages/incluia-etl/incluiasrc/utils'
